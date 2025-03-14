@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240); 
+    border-radius: 10px;
+}
+
+
+h1 {
+    color: rgb(0, 64, 128);
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+.div2 {
+    grid-column: span 4 / span 4;
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+        
+
+
+.div6 button {
+    background-color: rgb(0, 128, 128);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
